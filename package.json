@@ -1,0 +1,24 @@
+{
+  "name": "urban-flood-network-coupler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "浏览器端管网-地形二维内涝耦合推演系统",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "tsx bench/run.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "@webgpu/types": "^0.1.66",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3",
+    "vite": "^6.4.1",
+    "vitest": "^3.2.4"
+  }
+}
